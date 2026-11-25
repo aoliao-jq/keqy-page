@@ -1,157 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>可信企业 - 淮南毕益辉传媒</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>可信企业 - 武汉市江夏区赛柏堂百货店</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background: #f5f5f5;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0;
-        }
-        .card {
-            background: #ffffff;
-            border-radius: 0;
-            box-shadow: none;
-            width: 100%;
-            max-width: 100%;
-            min-height: 100vh;
-            padding: 24px 20px;
-            display: flex;
-            flex-direction: column;
-        }
-        .badge-container {
-            display: flex;
-            justify-content: center;
-            margin: 15px 0 25px 0;
-        }
-        .badge-container img {
-            width: 200px;
-            height: auto;
-            display: block;
-        }
-        .company-name {
-            font-size: 34px;
-            font-weight: 700;
-            color: #222;
-            margin-bottom: 12px;
-            line-height: 1.2;
-            text-align: center;
-        }
-        .verified-badge {
-            display: inline-block;
-            background: #52c41a;
-            color: white;
-            padding: 6px 20px;
-            border-radius: 40px;
-            font-size: 16px;
-            font-weight: 500;
-            margin-bottom: 35px;
-            margin-left: auto;
-            margin-right: auto;
-            width: fit-content;
-        }
-        .info-section {
-            margin-bottom: 32px;
-        }
-        .section-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 16px;
-            border-bottom: 1px solid #f0f0f0;
-            padding-bottom: 10px;
-        }
-        .info-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-        }
-        .info-row {
-            display: flex;
-            font-size: 16px;
-            line-height: 1.6;
-        }
-        .info-label {
-            width: 110px;
-            color: #666;
-            font-weight: 500;
-        }
-        .info-value {
-            flex: 1;
-            color: #333;
-            font-weight: 400;
-        }
-        .company-id {
-            font-family: monospace;
-            background: #f0f0f0;
-            padding: 4px 12px;
-            border-radius: 30px;
-            font-size: 15px;
-            color: #333;
-            display: inline-block;
-        }
-        .footer {
-            text-align: center;
-            margin-top: auto;
-            color: #999;
-            font-size: 14px;
-            border-top: 1px solid #eee;
-            padding-top: 18px;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+        background: #f5f5f5;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+      }
+      .card {
+        background: #ffffff;
+        border-radius: 0;
+        box-shadow: none;
+        width: 100%;
+        max-width: 100%;
+        min-height: 100vh;
+        padding: 24px 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .badge-container {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0 25px 0;
+      }
+      .badge-container img {
+        width: 200px;
+        height: auto;
+        display: block;
+      }
+      .company-name {
+        font-size: 34px;
+        font-weight: 700;
+        color: #222;
+        margin-bottom: 12px;
+        line-height: 1.2;
+        text-align: center;
+      }
+      .verified-badge {
+        display: inline-block;
+        background: #52c41a;
+        color: white;
+        padding: 6px 20px;
+        border-radius: 40px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+      }
+      .info-section {
+        margin-bottom: 32px;
+      }
+      .section-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #f0f0f0;
+        padding-bottom: 10px;
+      }
+      .info-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .info-row {
+        display: flex;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .info-label {
+        width: 110px;
+        color: #666;
+        font-weight: 500;
+      }
+      .info-value {
+        flex: 1;
+        color: #333;
+        font-weight: 400;
+      }
+      .company-id {
+        font-family: monospace;
+        background: #f0f0f0;
+        padding: 4px 12px;
+        border-radius: 30px;
+        font-size: 15px;
+        color: #333;
+        display: inline-block;
+      }
+      .footer {
+        text-align: center;
+        margin-top: auto;
+        color: #999;
+        font-size: 14px;
+        border-top: 1px solid #eee;
+        padding-top: 18px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="card">
-        <div class="badge-container">
-            <img src="badge.png" alt="可信企业徽章">
-        </div>
-        <div class="company-name">淮南毕益辉传媒</div>
-        <div class="verified-badge">已认定</div>
+      <div class="badge-container">
+        <img src="badge.png" alt="可信企业徽章" />
+      </div>
+      <div class="company-name">武汉市江夏区赛柏堂百货店</div>
+      <div class="verified-badge">已认定</div>
 
-        <div class="info-section">
-            <div class="section-title">基本信息</div>
-            <div class="info-grid">
-                <div class="info-row">
-                    <span class="info-label">企业简称</span>
-                    <span class="info-value">淮南毕益辉传媒</span>
-                </div>
-                <div class="info-row">
-                    <span class="info-label">行业分类</span>
-                    <span class="info-value">文化/体育/娱乐业-文化/体育</span>
-                </div>
-                <div class="info-row">
-                    <span class="info-label">企业链ID</span>
-                    <span class="info-value"><span class="company-id">414_1782122597</span></span>
-                </div>
-            </div>
+      <div class="info-section">
+        <div class="section-title">基本信息</div>
+        <div class="info-grid">
+          <div class="info-row">
+            <span class="info-label">企业简称</span>
+            <span class="info-value">武汉市江夏区赛柏堂百货店</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">行业分类</span>
+            <span class="info-value">批发/零售业 - 零售业</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">企业链ID</span>
+            <span class="info-value"
+              ><span class="company-id">92420115MAKRP02A9D</span></span
+            >
+          </div>
         </div>
+      </div>
 
-        <div class="info-section">
-            <div class="section-title">主体证件信息</div>
-            <div class="info-grid">
-                <div class="info-row">
-                    <span class="info-label">企业类型</span>
-                    <span class="info-value">企业</span>
-                </div>
-                <div class="info-row">
-                    <span class="info-label">成立日期</span>
-                    <span class="info-value"></span>
-                </div>
-                <div class="info-row">
-                    <span class="info-label">经营期限</span>
-                    <span class="info-value">永久</span>
-                </div>
-            </div>
+      <div class="info-section">
+        <div class="section-title">主体证件信息</div>
+        <div class="info-grid">
+          <div class="info-row">
+            <span class="info-label">企业类型</span>
+            <span class="info-value">企业</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">成立日期</span>
+            <span class="info-value">2026年11月09日</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">经营期限</span>
+            <span class="info-value">永久</span>
+          </div>
         </div>
+      </div>
 
-        <div class="footer">企业认证说明</div>
+      <div class="footer">企业认证说明</div>
     </div>
-</body>
+  </body>
 </html>
